@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "slug": "making-the-last-mooncake",
+      "title": "Making The Last Mooncake",
+      "date": "2026-09-30",
+      "summary": "A cozy bakery game about the Mid-Autumn Festival, made in three days for Cozy Fall Jam 2026. What we built, what broke, and what we'd do differently.",
+      "tags": [
+        "Game jam",
+        "Unity",
+        "Devlog"
+      ],
+      "image": "images/mooncake/main-menu.png"
+    }
+  ]
+}

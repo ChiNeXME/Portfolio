@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page not found | Muhammad Zulhilmi</title>
+  <meta name="description" content="This page doesn’t exist." />
+  <meta name="theme-color" content="#e7e9ec" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#101215" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Page not found | Muhammad Zulhilmi" />
+  <meta property="og:description" content="This page doesn’t exist." />
+  <meta property="og:image" content="images/apollo-hero-v2.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script>
+    document.documentElement.classList.add("js");
+    try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Geist:wght@400..600&family=Geist+Mono:wght@400..500&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html" aria-label="Muhammad Zulhilmi, home"><span class="brand-mark" aria-hidden="true">MZ</span><span translate="no">Zulhilmi</span></a>
+      <nav class="nav-pill" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="devlogs.html">Devlogs</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-btn" type="button" data-theme-btn aria-label="Switch theme"><i class="ph ph-circle-half" aria-hidden="true"></i></button>
+      </nav>
+      <button class="nav-toggle" id="navToggle" type="button" aria-controls="mobileMenu" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav aria-label="Mobile">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="devlogs.html">Devlogs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="theme-btn" type="button" data-theme-btn aria-label="Switch theme"><i class="ph ph-circle-half" aria-hidden="true"></i><span class="theme-label">system</span></button>
+  </div>
+
+  <main id="main">
+    <div class="wrap lost">
+      <h1 class="display-xl">404</h1>
+      <p class="lead">This page doesn’t exist. The link may be wrong, or the page has moved.</p>
+      <div class="cta-row"><a class="btn btn-primary" href="index.html">Back to home<span class="btn-icon" aria-hidden="true"><i class="ph ph-arrow-right"></i></span></a></div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="footer-top">
+        <p class="footer-name">&copy; <span data-year>2026</span> Muhammad Zulhilmi bin Nasharuddin</p>
+        <ul class="socials">
+          <li><a href="mailto:md.zulhilmi.2008@gmail.com" aria-label="Email"><i class="ph ph-envelope-simple" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/MDZulhilmiNasharuddin" target="_blank" rel="noopener" aria-label="GitHub (opens in a new tab)"><i class="ph ph-github-logo" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/muhammad-zulhilmi-nasharuddin-435864416" target="_blank" rel="noopener" aria-label="LinkedIn (opens in a new tab)"><i class="ph ph-linkedin-logo" aria-hidden="true"></i></a></li>
+          <li><a href="https://mzee08.itch.io" target="_blank" rel="noopener" aria-label="itch.io (opens in a new tab)"><i class="ph ph-game-controller" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UC0xiODJECnPPGKZx9lS2gCQ" target="_blank" rel="noopener" aria-label="YouTube (opens in a new tab)"><i class="ph ph-youtube-logo" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <p class="footer-note">Character art is fan use and belongs to its owners: Apollo and Bebop from Deadlock (Valve), a Payday 2 heister (Starbreeze), and Steve from Minecraft (Mojang). This site isn’t affiliated with any of them.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muhammad Zulhilmi, programmer and game dev student</title>
+  <meta name="description" content="Portfolio of Muhammad Zulhilmi bin Nasharuddin, a Game Development & Technology student at Nanyang Polytechnic working in C# (Unity) and C++." />
+  <meta name="theme-color" content="#e7e9ec" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#101215" media="(prefers-color-scheme: dark)" />
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Muhammad Zulhilmi, programmer and game dev student" />
+  <meta property="og:description" content="Portfolio of Muhammad Zulhilmi bin Nasharuddin, a Game Development & Technology student at Nanyang Polytechnic working in C# (Unity) and C++." />
+  <meta property="og:image" content="images/apollo-hero-v2.jpg" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script>
+    document.documentElement.classList.add("js");
+    try { var t = localStorage.getItem("theme"); if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t); } catch (e) {}
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&family=Geist:wght@400..600&family=Geist+Mono:wght@400..500&display=swap" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preload" as="image" href="images/apollo-hero-v2.jpg" fetchpriority="high" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="index.html" aria-label="Muhammad Zulhilmi, home"><span class="brand-mark" aria-hidden="true">MZ</span><span translate="no">Zulhilmi</span></a>
+      <nav class="nav-pill" aria-label="Primary">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="projects.html">Projects</a>
+        <a href="devlogs.html">Devlogs</a>
+        <a href="contact.html">Contact</a>
+        <button class="theme-btn" type="button" data-theme-btn aria-label="Switch theme"><i class="ph ph-circle-half" aria-hidden="true"></i></button>
+      </nav>
+      <button class="nav-toggle" id="navToggle" type="button" aria-controls="mobileMenu" aria-expanded="false" aria-label="Open menu"><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+    <nav aria-label="Mobile">
+      <ul>
+        <li><a href="index.html" aria-current="page">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="devlogs.html">Devlogs</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+    <button class="theme-btn" type="button" data-theme-btn aria-label="Switch theme"><i class="ph ph-circle-half" aria-hidden="true"></i><span class="theme-label">system</span></button>
+  </div>
+
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-art-drift">
+          <img src="images/apollo-hero-v2.jpg" width="1536" height="1024" alt="" fetchpriority="high" decoding="async" />
+        </div>
+      </div>
+      <div class="wrap hero-inner">
+        <span class="eyebrow">Programmer. Game Development &amp; Technology, Nanyang Polytechnic</span>
+        <h1 id="hero-title" class="hero-name display-xl" translate="no"><span>Muhammad</span><span>Zulhilmi<span class="accent-stop">.</span></span></h1>
+        <div class="hero-foot">
+          <p class="lead">I love video games, and I keep working to make my own ones better.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="projects.html">See projects<span class="btn-icon" aria-hidden="true"><i class="ph ph-arrow-up-right"></i></span></a>
+            <a class="btn btn-quiet" href="contact.html">Contact<span class="btn-icon" aria-hidden="true"><i class="ph ph-arrow-right"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="wrap about">
+        <div class="about-text reveal">
+          <h2 id="about-title" class="h2">Understanding the engine, one function at a time.</h2>
+          <p class="body">I study Game Development &amp; Technology at Nanyang Polytechnic. The part I enjoy most is working out how engines, functions and code actually work underneath, so I can use that in the games I make next.</p>
+        </div>
+        <div class="about-media reveal" style="--i:1">
+          <img src="images/bebop-about-v2.jpg" width="1254" height="1254" alt="" loading="lazy" decoding="async" />
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="toolkit-title">
+      <div class="wrap">
+        <h2 id="toolkit-title" class="h2 toolkit-head reveal">What I build with.</h2>
+        <div class="toolkit">
+          <div class="toolkit-media reveal">
+            <img src="images/payday-toolkit-v2.jpg" width="1536" height="1024" alt="" loading="lazy" decoding="async" />
+          </div>
+          <div class="inspector bezel reveal" style="--i:1">
+            <div class="bezel-core">
+              <div class="inspector-bar">
+                <i class="ph ph-code" aria-hidden="true"></i>
+                <span class="grow">Zulhilmi.cs</span>
+                <span class="muted">Script</span>
+              </div>
+              <dl class="inspector-fields">
+                <div class="field-row"><dt>Languages</dt><dd>C# (Unity), C++</dd></div>
+                <div class="field-row"><dt>Engine</dt><dd>Unity</dd></div>
+                <div class="field-row"><dt>Focus</dt><dd>Gameplay systems and engine fundamentals</dd></div>
+                <div class="field-row"><dt>Interests</dt><dd>Coding, gameplay ideas, game research</dd></div>
+                <div class="field-row"><dt>Goal</dt><dd>Make games I love and work on bigger projects</dd></div>
+              </dl>
+              <ul class="inspector-tags" aria-label="Skills" role="list">
+                <li class="chip">C#</li>
+                <li class="chip">Unity</li>
+                <li class="chip">C++</li>
+                <li class="chip">Gameplay design</li>
+                <li class="chip">Game research</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="closing-title">
+      <div class="wrap closing reveal">
+        <h2 id="closing-title" class="h2">Looking forward.</h2>
+        <p class="body">I want to work alongside people who do this for a living, learn from them, and see what a programmer’s job looks like from the inside.</p>
+        <div class="cta-row">
+          <a class="btn btn-quiet" href="contact.html">Contact<span class="btn-icon" aria-hidden="true"><i class="ph ph-arrow-right"></i></span></a>
+          <a class="text-link" href="mailto:md.zulhilmi.2008@gmail.com">md.zulhilmi.2008@gmail.com</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <div class="footer-top">
+        <p class="footer-name">&copy; <span data-year>2026</span> Muhammad Zulhilmi bin Nasharuddin</p>
+        <ul class="socials">
+          <li><a href="mailto:md.zulhilmi.2008@gmail.com" aria-label="Email"><i class="ph ph-envelope-simple" aria-hidden="true"></i></a></li>
+          <li><a href="https://github.com/MDZulhilmiNasharuddin" target="_blank" rel="noopener" aria-label="GitHub (opens in a new tab)"><i class="ph ph-github-logo" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/muhammad-zulhilmi-nasharuddin-435864416" target="_blank" rel="noopener" aria-label="LinkedIn (opens in a new tab)"><i class="ph ph-linkedin-logo" aria-hidden="true"></i></a></li>
+          <li><a href="https://mzee08.itch.io" target="_blank" rel="noopener" aria-label="itch.io (opens in a new tab)"><i class="ph ph-game-controller" aria-hidden="true"></i></a></li>
+          <li><a href="https://www.youtube.com/channel/UC0xiODJECnPPGKZx9lS2gCQ" target="_blank" rel="noopener" aria-label="YouTube (opens in a new tab)"><i class="ph ph-youtube-logo" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+      <p class="footer-note">Character art is fan use and belongs to its owners: Apollo and Bebop from Deadlock (Valve), a Payday 2 heister (Starbreeze), and Steve from Minecraft (Mojang). This site isn’t affiliated with any of them.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+{
+  "posts": [
+    {
+      "slug": "the-last-mooncake",
+      "title": "The Last Mooncake",
+      "date": "2026-09-30",
+      "summary": "A cozy game about a small bakery on the night of the Mid-Autumn Festival. Read each customer's story to bake them the right mooncake. Made in three days for Cozy Fall Jam 2026.",
+      "tags": [
+        "Game jam",
+        "Unity",
+        "C#"
+      ],
+      "image": "images/mooncake/main-menu.png",
+      "link": "https://mzee08.itch.io/the-last-mooncake",
+      "linkLabel": "Play on itch.io",
+      "source": "https://github.com/ChiNeXME/GameJamison",
+      "sourceLabel": "View on GitHub"
+    }
+  ]
+}
